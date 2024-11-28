@@ -7,17 +7,21 @@
     <title>Zippy</title>
 </head>
 <body>
-    
-    <div style="width:100%;height:100%;overflow:hidden;background-color:rgb(26, 26, 26);transform:translateZ(0);border-radius:0;position:relative">
-        <div id="One">
-            <canvas style="width: 100%; height: 100%; position: absolute; pointer-events: none;" data-generated="false" aria-hidden="true" width="780" height="1412"></canvas>
-        </div>
-    </div>
-    <div id="chat-container"></div>
+
+    <div class="chat-wrapper">
+        <header>
+            <img src="Zippy.png" alt="Zippy awsome logo " class="profile-pic">
+            <div class="header-info">
+                <h1>Zippy</h1>
+                <p>is an AI that can debate with you about any subject when your friend ain't smart enough</p>
+            </div>
+        </header>
         
-    <div class="input-area">
-        <textarea id="user-input" placeholder="Type your message..."></textarea>
-        <button id="send-button">Send</button>
+    <div id="chat-container">
+        <div class="input-area">
+            <textarea id="user-input" placeholder="Type your message..."></textarea>
+            <button id="send-button">Send</button>
+        </div>
     </div>
 
     <script src="script.js"></script>
